@@ -14,7 +14,7 @@ class vertex(): #Class definition
 
     def edgeaddition(self,vertex): #function definition
         self.adjacentlist.append(vertex)
-        vertex.adjacentlist.append(self)
+        vertex.adjacentlist.append(self)#linking the nodes
 
 
 class Graph(): #Class definition
@@ -70,20 +70,20 @@ CLASS VERTEX()
         adjacentlist = []
 
     EDGEADDITION(VERTEX):
-        append the vertex to the adjacentlist
+        APPEND THE VERTEX TO THE adjacentlist
 
 CLASS GRAPH()
     listofnodes <- []
 
     FUNCTION NODEADDITION(VERTEX)
-        append value of the vertex to listofnodes
+        APPEND VALUE OF VERTEX TO listofnodes
 
     FUNCTION PRINTING()
-        for items in listofnodes
-            display the value of items
-            for edge in adjacentlist of items
-                display edge
-        end for
+        FOR ITEMS IN LISTOFNODES
+            DISPLAY THE VALUE OF ITEMS
+            FOR EDGE IN adjacentlist OF ITEMS
+                DISPLAY EDGE
+        END FOR
 
 d <- Graph
 nodeA <- d.ADDNODE('A')
