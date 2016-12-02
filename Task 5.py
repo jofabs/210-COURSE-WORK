@@ -1,4 +1,4 @@
-"""Quesstion 5 attempt 3
+"""Quesstion 5 attempt 3 #trialanderror
 Write the pseudocode corresponding to functions for addition,
 subtraction and multiplication of two matrices,
 and then compute A=B*C –2*(B+C), where B and C
@@ -39,5 +39,4 @@ T.ADD(B,C)
 T.MULTIPLICATION(A*2)
 T.SUBTRACT(B,C)
 
-
-#Runtime of BIG O is O(log n)
+#Runtime = O(log n)
