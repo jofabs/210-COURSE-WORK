@@ -6,7 +6,7 @@ and give the time complexity of the algorithm using the Big O notation.
 Example input: L = [2,3,5,7,9,13] low= 10 high = 14 Output: True
 """
 
-def alexBinarySearch(seq,low,high,start=0,end=-1):
+def alexBinarySearch(seq,low,high,start=0,end=-1): #Binarysearch algorithm
     if end==-1:
         end=len(seq)-1
     if start>end:
