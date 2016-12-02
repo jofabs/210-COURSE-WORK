@@ -1,4 +1,4 @@
-"""Question 3
+"""TASK 3
 Write the pseudocode for a function which returns the highest perfect square
 which is less or equal to its parameter (a positive integer).
 Implement this in a programming language of your choice."""
