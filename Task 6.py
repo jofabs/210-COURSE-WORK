@@ -33,7 +33,7 @@ DEF REV(Q):
   if Q ="":
     return Q
   else:
-    FOR i = 0 to (lenght(Y)-1,-1,-1):
+    for i = 0 to (lenght(Y)-1,-1,-1):
       append Y[i] to X    
     return (' '.join(x))
       
