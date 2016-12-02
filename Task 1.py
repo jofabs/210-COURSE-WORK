@@ -9,7 +9,6 @@ Num = [0,13,3,5,6,98]
 def randomRearrange(Num):
     newList=[]
     while Num != []:
-    #for i in Num:
         i=random.choice((Num))
         newList.append(i)
         Num.remove(i)
