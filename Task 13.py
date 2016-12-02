@@ -76,8 +76,7 @@ CLASS GRAPH()
     listofnodes <- []
 
     FUNCTION NODEADDITION(VERTEX)
-        listofnodes.append(vertex(value))
-        APPEND VALUE OF VERTEX TO listofnodes
+        append value of the vertex to listofnodes
 
     FUNCTION PRINTING()
         for items in listofnodes
