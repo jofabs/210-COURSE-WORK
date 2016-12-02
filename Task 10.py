@@ -1,7 +1,6 @@
-"""Question 10
+"""TASK 10
 Given a sequence of n integer numbers, extract the
 sub-sequence of maximum length which is in ascending order."""
-
 
 
 integers =[13,12,93,96,97,3,13,19,95,120,20,21,12,2,6,12,2016] #array of intergers
@@ -20,17 +19,16 @@ def sequence(integers, store):
     store.append(total)
     print(integers)
     print(store)
-    print("The maximum subsequence of the given array in ascending order is - " + str(max(store)) + ".")
+    print("The maximum subsequence of the given array in ascending order is : " + str(max(store)) + ".")
 
     """The following is an additional step to display integers of the maximum subsequence
-    I am keep it as comment unless required"""
- #   highestSubseq = store.index(max(store))
- #   highestSub = max(store)
- #   totalSUM = 0
- #   for s in range(0, highestSubseq): 
- #       totalSUM = totalSUM + store[s]
- #   return("The maximum subsequence in ascending order is - " + str((integers)[totalSUM:totalSUM + highestSub]) + ".")
+    required"""
+    highestSubseq = store.index(max(store))
+    highestSub = max(store)
+    totalSUM = 0
+    for s in range(0, highestSubseq): 
+        totalSUM = totalSUM + store[s]
+    return("The maximum subsequence in ascending order is : " + str((integers)[totalSUM:totalSUM + highestSub]) + ".")
     
 
-sequence(integers, store)
-#print(sequence(integers, store))
+    print(sequence(integers, store))
