@@ -16,6 +16,7 @@ def rev(q):
       
 print ("When you reverse your elements you get:", rev(q), ".")
 
+"""BIG O NOTATION = O(n)"""
 
 #Other solution is to use the reversed funtion
 #' '.join(reversed(q.split()))
