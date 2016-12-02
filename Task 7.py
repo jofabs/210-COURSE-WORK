@@ -1,5 +1,5 @@
 """ Task 7
-#Write a recursive function (pseudocode and code) to check if a num. n is prime
+Write a recursive function (pseudocode and code) to check if a num. n is prime
 (hint: check whether n is divisible by any number below n)."""
 
 
@@ -30,17 +30,17 @@ parametre1 <- INPUT
 parametre2 <- parametre1 - 1
 
 OPTIMUSPRIME(P1, P2)
-    if P1 LESS THAN 2
-            print (parametre1,'is invalid.')
-    else if P1 EQUAL  2
-            print (parametre1, "is a prime.")
-    else
-        if P1 mod P2 EQUAL 0
-            print (parametre1, 'is Not a Prime.')
-        else if P1 mod P2 NOT EQUAL 0 and P2 NOT EQUAL 2
+    IF P1 LESS THAN 2
+            PRINT (parametre1,'is invalid.')
+    ELSE IF P1 EQUAL  2
+            PRINT (parametre1, "is a prime.")
+    ELSE
+        IF P1 MOD P2 EQUAL 0
+            PRINT (parametre1, 'is Not a Prime.')
+        ELSE IF P1 MOD P2 NOT EQUAL 0 AND P2 NOT EQUAL 2
             optimusPrime(P1, P2 - 1)
-        else if P1 mod P2 NOT EQUAL 0 and P2 EQUAL 2
-            print (parametre1, "is a Prime!")
+        ELSE IF P1 MOD P2 NOT EQUAL 0 AND P2 EQUAL 2
+            PRINT (parametre1, "is a Prime!")
 
 Call the funtion with the parametres
 """
