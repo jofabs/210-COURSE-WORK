@@ -1,4 +1,4 @@
-"""Question 11
+"""TASK 11
 Based on the Python code or the C++ code provided in class as a starting point,
 implement the binary search tree node delete function."""
 
@@ -39,13 +39,11 @@ class List(object):
                   N.prev.next = N.next
             else:
                   self.head = N.next
-            if N.next !=0:
+            if N.next !=None:
                   N.next.prev = N.prev
             else:
                   self.tail = N.prev
 
-
-      #Time Complexity O(1)
 
             
 if __name__ == '__main__':
@@ -56,5 +54,7 @@ if __name__ == '__main__':
       l.insert(l.head,Node(7))
       l.insert(l.head,Node(8))
       l.insert(l.head,Node(9))
+      l.display()
+      print("List after node deletion is:")
       l.deleteNode(l.head) #Performing the delete node, deleting the first node
       l.display()
