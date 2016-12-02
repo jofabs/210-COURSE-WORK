@@ -16,7 +16,7 @@ def randomRearrange(Num):
     return newList
 
 print ("Original range of numbers are", Num)
-print("this is the new result", randomRearrange(Num))
+print("This is the new result", randomRearrange(Num))
 
 
 # ATTEMPT 1 Random.shuffle solution EASY STEP
