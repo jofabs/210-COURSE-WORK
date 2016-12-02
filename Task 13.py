@@ -19,14 +19,14 @@ class vertex(): #Class definition
 
 class Graph(): #Class definition
     def __init__ (self):#function definition
-        self.listofnode = []
+        self.listofnodes = []
 
     def nodeaddition (self,value):#function definition
-        self.listofnode.append(vertex(value))#appenging the node to list
-        return self.listofnode[-1]
+        self.listofnodes.append(vertex(value))#appenging the node to list
+        return self.listofnodes[-1]
         
     def printing(self):#function definition
-        for items in self.listofnode:
+        for items in self.listofnodes:
             print(items.value, ":", end='')
             for m in items.adjacentlist:
                 print(str(m.value),end='')
@@ -73,26 +73,21 @@ CLASS VERTEX()
         append the vertex to the adjacentlist
 
 CLASS GRAPH()
-    nodelist <- []
+    listofnodes <- []
 
     FUNCTION NODEADDITION(VERTEX)
-        nodelist.append(vertex(value))
-        APPEND VALUE OF VERTEX TO nodelist
+        listofnodes.append(vertex(value))
+        APPEND VALUE OF VERTEX TO listofnodes
 
     FUNCTION PRINTING()
-        for items in nodelist:
-            print value of items
-            for edge in adjacentlist of items:
-                print edge
+        for items in listofnodes
+            display the value of items
+            for edge in adjacentlist of items
+                display edge
         end for
 
 d <- Graph
 nodeA <- d.ADDNODE('A')
-nodeL <- d.ADDNODE('L')
-nodeE <- d.ADDNODE('E')
 nodeA.EDGEADDITION(nodeA)
-nodeL.EDGEADDITION(nodeL)
-nodeE.EDGEADDITION(nodeE)
 d.PRINTING()           
 """
-
