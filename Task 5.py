@@ -29,14 +29,14 @@ MULTIPLICATION(A,m)
 MATRIXMULTIPLICATION(B,C)
     for a <-0 to z
             for e <- 0 to z
-                power <- B[l][e]- C[e][l]
-                total[a][l] = total[a][l] + power
+                power <- B[l][e]- C
+                total[a][l] = total+ power
     return total
 
 T.MATRIXMULTIPLICATION(B,C)
 T = B*C + 2 (B+2)
 T.ADD(B,C)
-T.MULTIPLICATION(A*2)
+T.MULTIPLICATION(A)
 T.SUBTRACT(B,C)
 
 #Runtime = O(log n)
