@@ -86,7 +86,7 @@ CLASS GRAPH()
         END FOR
 
 d <- Graph
-nodeA <- d.ADDNODE('A')
+nodeA <- d.NODEADDITION('A')
 nodeA.EDGEADDITION(nodeA)
 d.PRINTING()           
 """
